@@ -4,12 +4,61 @@ body {
     background-color: #FFFFFF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
 }
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    border: 0;
+}
+
+.container {
+    width: 1158px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+}
+
+.adress ul {
+    display: flex;
+    gap: 40px;
+    margin-left: 332px;
 }
 
 .logo {
@@ -68,12 +117,23 @@ ul {
     color: #404bbf;
 }
 
+.hero-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
 .head-main-page {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    width: 100%;
+    max-width: 496px;
 }
 
 .head-btn {
@@ -84,7 +144,10 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    cursor: pointer
+    cursor: pointer;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
 }
 
 .head-btn:hover {
@@ -93,6 +156,28 @@ ul {
 
 .head-btn:focus {
     background-color: #404BBF;
+}
+
+.benefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.benefits-inner {
+    display: flex;
+}
+
+.benefits-lists ul {
+    display: flex;
+    gap: 24px;
+}
+
+.benefits-lists ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    max-width: 264px;
 }
 
 .head-more-info {
@@ -112,6 +197,41 @@ ul {
 
 .our-team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.our-team-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.our-team-cards ul {
+    display: flex;
+    gap: 24px;
+}
+
+.our-team-cards ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 4px 4px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 32px;
 }
 
 .our-team-head {
@@ -142,6 +262,44 @@ ul {
     color: #434455;
 }
 
+.our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.our-portfolio-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.our-portfolio-cards ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px 24px;
+}
+
+.our-portfolio-cards ul li {
+    width: 360px;
+}
+
+.portfolio-cards-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+
+.portfolio-cards-title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 16px;
+    margin-bottom: 32px;
+}
+
 .our-portfolio-head {
     font-size: 36px;
     line-height: 1.11;
@@ -168,6 +326,16 @@ ul {
 
 .footer-page {
     background-color: #2e2f42;
+}
+
+.footer-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 264px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-page-info {
