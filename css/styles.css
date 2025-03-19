@@ -315,6 +315,7 @@ img {
 }
 
 .logo-footer-f {
+    display: inline-block;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -326,10 +327,7 @@ img {
 }
 
 .logo-footer {
+    display: inline-block;
     margin-bottom: 16px;
     color: #f4f4fd;
-}
-
-.footer-logo {
-    display: inline-block;
 }
