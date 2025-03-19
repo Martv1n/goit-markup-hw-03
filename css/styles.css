@@ -46,6 +46,10 @@ img {
     padding: 0 15px;
 }
 
+.header-container {
+    display: flex;
+}
+
 .header-inner {
     display: flex;
     align-items: center;
