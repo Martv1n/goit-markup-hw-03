@@ -41,6 +41,7 @@ img {
 
 .header-container {
     display: flex;
+    align-items: center;
 }
 
 .container {
@@ -53,8 +54,6 @@ img {
 .header-inner {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-nav {
@@ -84,6 +83,7 @@ img {
 
 .adress {
     font-style: normal;
+    margin-left: auto;
 }
 
 .main-page {
@@ -92,10 +92,18 @@ img {
 }
 
 .hero-title {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
     max-width: 496px;
+    color: #FFFFFF;
 }
 
 .navigation {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -152,6 +160,8 @@ img {
     cursor: pointer;
     border-radius: 4px;
     border: none;
+    margin: 0 auto;
+    margin-top: 48px;
     min-width: 169px;
     width: 169px;
     height: 56px;
@@ -181,7 +191,7 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 .benefits-lists {
     display: flex;
@@ -311,15 +321,15 @@ img {
 }
 
 .footer-page-info {
+    margin-top: 16px;
     max-width: 264px;
     line-height: 1.5;
-    color: #F4F4FD;
     letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
 
 .logo-footer-f {
     display: inline-block;
-    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -331,6 +341,5 @@ img {
 
 .logo-footer {
     display: inline-block;
-    margin-bottom: 16px;
     color: #f4f4fd;
 }
