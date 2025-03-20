@@ -321,7 +321,6 @@ img {
 }
 
 .footer-page-info {
-    margin-top: 16px;
     max-width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -330,6 +329,7 @@ img {
 
 .logo-footer-f {
     display: inline-block;
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
